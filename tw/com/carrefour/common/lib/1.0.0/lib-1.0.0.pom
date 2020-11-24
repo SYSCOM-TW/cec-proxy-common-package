@@ -4,32 +4,29 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>tw.com.carrefour.lib</groupId>
-  <artifactId>common</artifactId>
-  <version>0.0.6</version>
+  <groupId>tw.com.carrefour.common</groupId>
+  <artifactId>lib</artifactId>
+  <version>1.0.0</version>
 
-  <name>common</name>
+  <name>tw.com.carrefour.common.lib</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
-
+	<properties>	
+		<java.version>11</java.version>
+		<spring-cloud.version>Hoxton.SR8</spring-cloud.version>
 		<github.global.server>syscom-github</github.global.server>
 	</properties>
 
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>	
+			<version>4.13</version>		
+		</dependency>
+	</dependencies>
 	
-  <build>
+	<build>
 		<plugins>
 			<plugin>
 				<artifactId>maven-deploy-plugin</artifactId>
