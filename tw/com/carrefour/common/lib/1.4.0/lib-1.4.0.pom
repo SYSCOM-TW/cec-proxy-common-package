@@ -6,7 +6,7 @@
 
   <groupId>tw.com.carrefour.common</groupId>
   <artifactId>lib</artifactId>
-  <version>1.4.3</version>
+  <version>1.4.0</version>
 
   <name>tw.com.carrefour.common.lib</name>
   <!-- FIXME change it to the project's website -->
